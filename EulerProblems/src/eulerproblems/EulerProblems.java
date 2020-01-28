@@ -9,11 +9,19 @@ package eulerproblems;
  * @author JSKoenig
  */
 public class EulerProblems {
+
+    /**
+     * Creates new instance of EulerProblems and runs the program.
+     * @param args
+     */
     public static void main(String[] args) {
         EulerProblems driver = new EulerProblems();
         driver.run();
     }
     
+    /**
+     * Calls the various class files to solve each problem.
+     */
     public void run(){
         final long startTime = System.nanoTime();
         
