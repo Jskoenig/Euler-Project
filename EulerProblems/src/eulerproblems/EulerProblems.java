@@ -11,16 +11,8 @@ package eulerproblems;
 public class EulerProblems {
 
     /**
-     * Creates new instance of EulerProblems and runs the program.
-     * @param args
-     */
-    public static void main(String[] args) {
-        EulerProblems driver = new EulerProblems();
-        driver.run();
-    }
-    
-    /**
-     * Calls the various class files to solve each problem.
+     * Creates an object of each problem then runs it. All data for each problem is hard 
+     * coded into their specific Java file.
      */
     public void run(){
         final long startTime = System.nanoTime();
@@ -107,4 +99,14 @@ public class EulerProblems {
         System.out.println("Program finished.");
         System.out.println("Total time to execute " + (System.nanoTime() - startTime) / 1000000 + " milliseconds.");
     }
+    
+    /**
+     * Creates new instance of EulerProblems and runs the program.
+     * @param args
+     */
+    public static void main(String[] args) {
+        EulerProblems driver = new EulerProblems();
+        driver.run();
+    }
+    
 }
