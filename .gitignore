@@ -1,0 +1,5 @@
+**private/
+**build/
+**build.xml
+**.scaffold_config
+**build-impl.xml
